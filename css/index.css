@@ -49,7 +49,7 @@ p.intro {
   background-repeat: no-repeat;
   background-position: center;  
   background-size: cover;
-  height: 100vh; /* Adjust this value as needed */  
+  height: 110vh; /* Adjust this value as needed */  
 }
 #about {
   height: 100vh; /* Adjust this value as needed */  
@@ -64,7 +64,7 @@ p.intro {
   padding-bottom: 70px;
 }
 .content {
-  background-color: pink; /* Adjust color to match the image */
+  background-color: #CAD1BF; /* Adjust color to match the image */
 }
 #research {
   height: 100vh; /* Adjust this value as needed */  
