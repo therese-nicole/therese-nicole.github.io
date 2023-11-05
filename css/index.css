@@ -34,7 +34,7 @@ p.indent-quote{
 
 p.intro {
   display:block;
-  margin: 0px 300px 50px 300px ;
+  margin: 50px 300px 50px 300px ;
   text-align: justify;
 }
 
@@ -57,7 +57,7 @@ p.intro {
 .title {
   color: #333;
   font-size: 66px;
-  margin-top: 0px;
+  margin-top: 45px;
   margin-bottom: 0px;
   text-align: center;
   padding-top: 70px;
