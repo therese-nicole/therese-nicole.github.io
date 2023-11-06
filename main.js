@@ -49,3 +49,27 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
+document.getElementById('themeToggle').addEventListener('click', function() {
+  var body = document.body;
+  var icon = this.querySelector('i');
+  console.log("click", body)
+  if (body.classList.contains('dark-mode')) {
+      body.classList.remove('dark-mode');
+      localStorage.setItem('theme', 'light');
+      icon.classList.remove('fa-sun');
+      icon.classList.add('fa-moon');
+
+  } else {
+      body.classList.add('dark-mode');
+      localStorage.setItem('theme', 'dark');
+      icon.classList.remove('fa-moon');
+      icon.classList.add('fa-sun');
+  }
+});
+
+// On page load, check for a saved theme preference
+if (localStorage.getItem('theme') === 'dark') {
+  document.body.classList.add('dark-mode');
+  icon.classList.add('fa-sun');
+  icon.classList.remove('fa-moon');
+}
