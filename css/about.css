@@ -1,0 +1,109 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-image:; 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+  padding-top: 120px;
+}
+
+p.indent-quote{
+  text-align: center
+}
+
+p.courses {
+  display:block;
+  padding: 30px 300px 10px 300px ;
+  text-align: left;
+}
+
+p.courses2 {
+  display:block;
+  padding: 30px 300px 150px 300px ;
+  text-align: left;
+}
+
+h2 {
+  display: block;
+  font-weight: normal;
+  text-align: center;
+  color: grey;
+  padding-top: 100px}
+
+  h3 {
+    display: block;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 100px;
+    border-bottom: 1px solid;
+    margin: 30px 260px;
+    min-width: auto;
+  }  
+
+h4 {
+  display: block;
+  font-weight: normal;
+  text-align: left;
+  margin: 50px 300px 0px 300px ;
+  min-width: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  p.courses {
+    padding: 30px 10px 10px 10px;
+  }
+  p.courses2 {
+    padding: 30px 10px 230px 10px
+  }
+  h2 {
+    margin: 30px 10px 30px 10px;
+  }
+  h3, h4 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  button.collapsible {
+    margin-left: 10px
+  }
+  div.content {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+  }
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 90%;
+}
+.content {
+  background-color: #CAD1BF; /* Adjust color to match the image */
+}
+.title {
+  color: #333;
+  font-size: 66px;
+  margin-top: 45px;
+  margin-bottom: 0px;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}

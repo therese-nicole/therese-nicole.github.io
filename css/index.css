@@ -1,4 +1,14 @@
 
+body{
+  margin: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)),  url('../imgs/pic2.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+}
+
 .icons {padding: 8px;
     font-size: 30px;
      width: 45px;
@@ -15,7 +25,6 @@ h2 {
   display: block;
   font-weight: normal;
   text-align: center;
-  color: grey;
   padding-top: 100px}
 
 h3 {
@@ -34,7 +43,7 @@ p.indent-quote{
 
 p.intro {
   display:block;
-  margin: 50px 300px 50px 300px ;
+  margin: 0px 300px 50px 300px ;
   text-align: justify;
 }
 
@@ -44,31 +53,34 @@ p.intro {
   }
 }
 
-#home {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.75)), url("../imgs/pic2.png");
-  background-repeat: no-repeat;
-  background-position: center;  
-  background-size: cover;
-  height: 110vh; /* Adjust this value as needed */  
+ul.custom-bullets {
+  list-style-type: none; /* Remove default list styling */
+  margin: 0;
+  padding-top: 45px;
+  color: white;
+  align-items: center;
 }
-#about {
-  height: 100vh; /* Adjust this value as needed */  
+
+ul.custom-bullets li {
+  padding-left: 40px; /* Adjust depending on your largest image size */
+  text-indent: -190px; /* Brings text closer to the bullet image */
+  margin-bottom: 10px; /* Adjust space between list items as needed */
+  list-style-position: inside;
+  line-height: 40px; /* This should correspond to the height of your largest bullet image */
 }
-.title {
-  color: #333;
-  font-size: 66px;
-  margin-top: 45px;
-  margin-bottom: 0px;
-  text-align: center;
-  padding-top: 70px;
-  padding-bottom: 70px;
+
+.custom-bullets .bullet-item-1 {
+  background: url('../imgs/image1.png') no-repeat left center;
+  background-size: 2em;
+
+
 }
-.content {
-  background-color: #CAD1BF; /* Adjust color to match the image */
+
+.custom-bullets .bullet-item-2 {
+  background: url('path-to-your-second-image.png') no-repeat left center;
 }
-#research {
-  height: 100vh; /* Adjust this value as needed */  
+
+.custom-bullets .bullet-item-3 {
+  background: url('path-to-your-third-image.png') no-repeat left center;
 }
-.content2 {
-  background-color: #b39eb5; /* Adjust color to match the image */
-}
+
